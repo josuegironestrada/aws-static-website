@@ -1,0 +1,100 @@
+
+:root {
+  --background: #0b1220;
+  --surface: #172238;
+  --text: #f8fafc;
+  --muted: #b6c5d8;
+  --accent: #60a5fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--background);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.container {
+  width: min(90%, 1000px);
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.hero {
+  padding: 100px 0 120px;
+}
+
+.eyebrow {
+  color: var(--accent);
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+h1 {
+  font-size: clamp(36px, 6vw, 64px);
+  margin-bottom: 0;
+}
+
+.hero h2 {
+  font-size: clamp(20px, 3vw, 28px);
+  color: var(--muted);
+  font-weight: normal;
+}
+
+.hero p {
+  max-width: 700px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: var(--accent);
+  color: #08111f;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+section {
+  margin-bottom: 90px;
+}
+
+.project-card {
+  padding: 30px;
+  background: var(--surface);
+  border: 1px solid #334155;
+  border-radius: 12px;
+}
+
+.tech {
+  color: var(--accent);
+  font-size: 14px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  border-top: 1px solid #334155;
+  color: var(--muted);
+}
