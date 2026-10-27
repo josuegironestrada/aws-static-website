@@ -1,65 +1,46 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cloud Engineering Portfolio">
-  <title>Josue Giron | Cloud Engineer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Josue Giron's cloud engineering portfolio: AWS certifications, hands-on cloud projects, and infrastructure engineering.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Josue Giron | Cloud Engineering Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="container">
-    <nav>
-      <strong>Cloud Portfolio ☁️</strong>
-      <a href="#projects">Projects</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="brand" href="#top"><span class="brand-mark">JG<span class="accent">.</span></span><span>cloud / portfolio</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#certifications">Certifications</a><a class="nav-contact" href="#contact">Contact ↗</a>
+      </div>
     </nav>
   </header>
-
-  <main class="container">
-    <section class="hero">
-      <p class="eyebrow">ASPIRING CLOUD ENGINEER</p>
-      <h1>Hi, Im Josue Giron.</h1>
-      <h2>Building secure and scalable cloud solutions on AWS.</h2>
-      <p>
-        AWS Certified Cloud Practitioner and AI Practitioner
-        with a Systems Engineering background.
-        Currently building hands-on cloud projects using
-        AWS, Terraform, Docker, and Kubernetes.
-      </p>
-
-      <a class="button" href="https://github.com/josuegironestrada"
-         target="_blank" rel="noopener noreferrer">
-        Explore My GitHub
-      </a>
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO JUNIOR CLOUD ENGINEERING OPPORTUNITIES</p>
+        <h1 id="hero-title">Building in the cloud.<br><span class="gradient-text">Learning by doing.</span></h1>
+        <p class="hero-lead">Hi, I'm <strong>Josue Giron</strong> — an AWS-certified aspiring Cloud Engineer with a Systems Engineering background, turning cloud concepts into real, documented projects.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="https://github.com/josegironrestrada" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a></div>
+        <div class="hero-stats"><div><strong>02</strong><span>AWS certifications</span></div><div><strong>01</strong><span>Deployed AWS project</span></div><div><strong>100%</strong><span>Hands-on learning</span></div></div>
+      </div>
+      <div class="hero-visual" aria-label="Stylized cloud architecture overview">
+        <div class="terminal-top"><span class="dots"><i></i><i></i><i></i></span><span>architecture / project-01</span></div>
+        <div class="terminal-body"><p class="terminal-comment">// Secure static site architecture</p><div class="node node-user">🌐 &nbsp; Visitor <small>HTTPS request</small></div><div class="connector">↓</div><div class="node node-cloud">☁ &nbsp; Amazon CloudFront <small>CDN · Cache · HTTPS</small></div><div class="connector">↓ <span>OAC</span></div><div class="node node-s3">▤ &nbsp; Private Amazon S3 <small>HTML · CSS</small></div><div class="terminal-status"><span class="status-dot"></span> Deployment: live <span class="right">AWS / us-east-1</span></div></div>
+      </div>
     </section>
-
-    <section id="projects">
-      <h2>Featured Projects</h2>
-
-      <article class="project-card">
-        <h3>AWS Static Website</h3>
-        <p>
-          A secure static website hosted using Amazon S3
-          and distributed through Amazon CloudFront.
-        </p>
-        <p class="tech">AWS S3 · CloudFront · GitHub</p>
-      </article>
+    <section class="section container" id="projects"><div class="section-heading"><div><p class="section-kicker">01 / WORK</p><h2>Featured projects<span class="accent">.</span></h2></div><p>Real infrastructure, documented decisions, and lessons learned.</p></div>
+      <article class="project-card"><div class="project-icon" aria-hidden="true">☁</div><div class="project-main"><div class="project-meta"><span class="pill pill-live">● LIVE PROJECT</span><span class="project-number">PROJECT 01</span></div><h3>Secure AWS Static Website</h3><p>Designed and deployed a static portfolio using a private Amazon S3 bucket, CloudFront CDN, Origin Access Control, and HTTPS. Practiced Git-based updates, cache invalidation, and cloud security.</p><div class="tags"><span>Amazon S3</span><span>CloudFront</span><span>OAC</span><span>Git & GitHub</span><span>HTML/CSS</span></div><div class="project-links"><a href="https://github.com/josegironrestrada/aws-static-website" target="_blank" rel="noopener noreferrer">View source & documentation ↗</a><a href="#top">You're viewing the live project ↑</a></div></div></article>
+      <p class="future-note">More projects are on the way: Terraform infrastructure, Dockerized APIs, CI/CD, and Kubernetes. They'll appear here as I build and validate them.</p>
     </section>
-
-    <section class="about">
-      <h2>About Me</h2>
-      <p>
-        I'm passionate about cloud computing, automation,
-        and infrastructure engineering. My goal is to
-        build reliable cloud solutions and grow as a
-        Cloud Engineer.
-      </p>
-    </section>
+    <section class="section container" id="about"><div class="section-heading"><div><p class="section-kicker">02 / BACKGROUND</p><h2>About me<span class="accent">.</span></h2></div></div><div class="about-panel"><p>I'm building a career in <strong>Cloud Engineering</strong>, with a foundation in Systems Engineering and certifications in AWS Cloud and AI fundamentals.</p><p>My approach is simple: learn a concept, implement it in AWS, document the architecture, and understand the trade-offs. This portfolio is a living record of that process.</p></div></section>
+    <section class="section container" id="skills"><div class="section-heading"><div><p class="section-kicker">03 / TOOLKIT</p><h2>Technical toolkit<span class="accent">.</span></h2></div><p>Technologies I've used, plus what I'm actively learning.</p></div><div class="skill-grid"><div class="info-card"><div class="info-icon">☁</div><h3>Cloud & networking</h3><p>AWS S3, CloudFront, IAM concepts, HTTPS, CDN caching, and AWS fundamentals.</p><span class="skill-status">Hands-on + certified fundamentals</span></div><div class="info-card"><div class="info-icon">⌘</div><h3>Development workflow</h3><p>Git, GitHub, HTML, CSS, version control, and technical documentation.</p><span class="skill-status">Hands-on</span></div><div class="info-card"><div class="info-icon">⚙</div><h3>Learning next</h3><p>Terraform, Linux, Python, Docker, CI/CD, and Kubernetes.</p><span class="skill-status learning">Learning roadmap</span></div></div></section>
+    <section class="section container" id="certifications"><div class="section-heading"><div><p class="section-kicker">04 / CREDENTIALS</p><h2>Certifications<span class="accent">.</span></h2></div></div><div class="cert-grid"><div class="cert-card"><span class="cert-label">AWS CERTIFIED</span><h3>Cloud Practitioner</h3><p>Cloud fundamentals, security, AWS services, and billing.</p></div><div class="cert-card"><span class="cert-label">AWS CERTIFIED</span><h3>AI Practitioner</h3><p>AI and machine learning fundamentals, generative AI, and responsible AI.</p></div></div></section>
+    <section class="section container" id="contact"><div class="contact-panel"><p class="section-kicker">05 / CONNECT</p><h2>Let's build what's next<span class="accent">.</span></h2><p>I'm interested in junior Cloud Engineering and infrastructure opportunities. Explore my work or connect with me on GitHub.</p><a class="button button-primary" href="https://github.com/josegironrestrada" target="_blank" rel="noopener noreferrer">Connect on GitHub ↗</a><p class="contact-note">Add your LinkedIn profile and professional email here when ready.</p></div></section>
   </main>
-
-  <footer>
-    <p>© 2026 Josue Giron · Built with HTML & CSS</p>
-  </footer>
+  <footer class="footer"><div class="container footer-inner"><span>© 2026 Josue Giron</span><span>Built with HTML & CSS · Hosted on AWS</span><a href="#top">Back to top ↑</a></div></footer>
 </body>
 </html>
