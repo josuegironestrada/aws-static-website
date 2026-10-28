@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="384" viewBox="0 0 320 384" role="img" aria-labelledby="title desc">
+  <title id="title">Photo placeholder for Josue Giron</title>
+  <desc id="desc">Subtle navy-blue background with initials JG</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1d435b"/>
+      <stop offset="1" stop-color="#101c2e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".28" cy=".2" r=".8">
+      <stop offset="0" stop-color="#4584a4" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#4584a4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="320" height="384" rx="8" fill="url(#bg)"/>
+  <rect width="320" height="384" rx="8" fill="url(#glow)"/>
+  <g stroke="#9ac6d8" stroke-opacity=".10" stroke-width="1">
+    <path d="M0 56H320M0 112H320M0 168H320M0 224H320M0 280H320M0 336H320"/>
+    <path d="M56 0V384M112 0V384M168 0V384M224 0V384M280 0V384"/>
+  </g>
+  <circle cx="160" cy="177" r="78" fill="#0c2539" stroke="#67e8f9" stroke-opacity=".32" stroke-width="1.5"/>
+  <text x="160" y="194" text-anchor="middle" fill="#d4f5ff" font-size="61" font-weight="750" font-family="Inter, Arial, sans-serif" letter-spacing="-5">JG</text>
+  <path d="M116 276H204" stroke="#67e8f9" stroke-width="2" stroke-opacity=".55"/>
+  <text x="160" y="303" text-anchor="middle" fill="#9cb8c7" font-family="Arial, sans-serif" font-size="12" letter-spacing="2.5">CLOUD · SECURITY</text>
+</svg>
