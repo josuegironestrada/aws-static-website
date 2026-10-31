@@ -1,4 +1,4 @@
-/* Josue Giron · Cloud Portfolio · Version 2
+/* Josue Giron · Cloud Portfolio · Version 3
    No frameworks, fonts, or JavaScript required. */
 :root {
   --bg: #0b1220;
@@ -186,3 +186,13 @@ h1 { font-size: clamp(2.8rem, 5vw, 4.9rem); line-height: 1.13; letter-spacing: -
   html { scroll-behavior: auto; }
   .button { transition: none; }
 }
+
+/* Project 2 and credential verification links */
+.project-card + .project-card { margin-top: 1rem; }
+.pill-built { background: #18344a; color: #93c5fd; }
+.project-card-featured { border-color: #355571; }
+.cert-card { display: flex; flex-direction: column; align-items: flex-start; }
+.cert-card p { margin-bottom: 1rem; }
+.cert-link { margin-top: auto; display: inline-flex; align-items: center; gap: .4rem; color: var(--accent); font-size: .85rem; font-weight: 700; border-bottom: 1px solid transparent; }
+.cert-link:hover { border-bottom-color: var(--accent); }
+.cert-link:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Josue Giron's cloud and infrastructure portfolio. Systems Engineering coursework completed, Master's student in Cybersecurity, AWS certified, and building hands-on cloud projects.">
+  <meta name="description" content="Josue Giron's cloud engineering portfolio featuring AWS static hosting, Terraform infrastructure, VPC networking, EC2, security, and hands-on projects.">
   <meta name="theme-color" content="#0b1220">
   <title>Josue Giron | Cloud &amp; Infrastructure Portfolio</title>
   <link rel="stylesheet" href="style.css">
@@ -44,11 +44,11 @@
         </div>
         <div class="hero-actions">
           <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a>
-          <a class="button button-secondary" href="https://github.com/josuegironrestrada" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="https://github.com/josuegironestrada" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
         </div>
         <div class="hero-stats" aria-label="Portfolio highlights">
           <div><strong>02</strong><span>AWS certifications</span></div>
-          <div><strong>01</strong><span>Deployed AWS project</span></div>
+          <div><strong>02</strong><span>AWS portfolio projects</span></div>
           <div><strong>Master's</strong><span>Cybersecurity · in progress</span></div>
         </div>
       </div>
@@ -85,7 +85,19 @@
           </div>
         </div>
       </article>
-      <p class="future-note">Next on my roadmap: Terraform infrastructure, Dockerized APIs, CI/CD, and Kubernetes. I'll add each project as I build and validate it.</p>
+      <article class="project-card project-card-featured">
+        <div class="project-icon" aria-hidden="true">⌘</div>
+        <div class="project-main">
+          <div class="project-meta"><span class="pill pill-built">● BUILT &amp; DOCUMENTED</span><span class="project-number">PROJECT 02</span></div>
+          <h3>AWS Infrastructure with Terraform</h3>
+          <p>Provisioned a custom AWS VPC with public and private subnets across two Availability Zones, Internet Gateway, route tables, security groups, and an Amazon Linux EC2 instance running Nginx. Automated server setup with user data, configured IAM access for Systems Manager, and documented the deployment and troubleshooting process.</p>
+          <div class="tags" aria-label="Technologies used"><span>Terraform</span><span>Amazon VPC</span><span>EC2</span><span>IAM</span><span>Systems Manager</span><span>Linux / Nginx</span></div>
+          <div class="project-links">
+            <a href="https://github.com/josuegironestrada/aws-terraform-infrastructure" target="_blank" rel="noopener noreferrer">Explore code &amp; architecture <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </article>
+      <p class="future-note">Next on my roadmap: CI/CD, containerized applications, and further cloud automation. Each project will be added as I build and validate it.</p>
     </section>
 
     <section class="section container" id="about" aria-labelledby="about-heading">
@@ -129,17 +141,29 @@
         <p>What I've used in projects, and what I'm learning next.</p>
       </div>
       <div class="skill-grid">
-        <div class="info-card"><div class="info-icon" aria-hidden="true">☁</div><h3>Cloud &amp; networking</h3><p>AWS S3, CloudFront, IAM concepts, HTTPS, CDN caching, and AWS fundamentals.</p><span class="skill-status">Hands-on + certified fundamentals</span></div>
-        <div class="info-card"><div class="info-icon" aria-hidden="true">⌘</div><h3>Development workflow</h3><p>Git, GitHub, HTML, CSS, version control, and technical documentation.</p><span class="skill-status">Hands-on</span></div>
-        <div class="info-card"><div class="info-icon" aria-hidden="true">⚙</div><h3>Learning next</h3><p>Terraform, Linux, Python, Docker, CI/CD, and Kubernetes.</p><span class="skill-status learning">Learning roadmap</span></div>
+        <div class="info-card"><div class="info-icon" aria-hidden="true">☁</div><h3>Cloud &amp; networking</h3><p>AWS S3, CloudFront, VPCs, subnets, routing, EC2, IAM, Security Groups, and cloud networking fundamentals.</p><span class="skill-status">Hands-on + certified fundamentals</span></div>
+        <div class="info-card"><div class="info-icon" aria-hidden="true">⌘</div><h3>Development workflow</h3><p>Terraform, Git, GitHub, HTML, CSS, Infrastructure as Code, and technical documentation.</p><span class="skill-status">Hands-on</span></div>
+        <div class="info-card"><div class="info-icon" aria-hidden="true">⚙</div><h3>Currently expanding</h3><p>Linux administration, Python, Docker, CI/CD pipelines, and Kubernetes.</p><span class="skill-status learning">Learning roadmap</span></div>
       </div>
     </section>
 
     <section class="section container" id="certifications" aria-labelledby="certifications-heading">
       <div class="section-heading"><div><p class="section-kicker">04 / CREDENTIALS</p><h2 id="certifications-heading">Certifications<span class="accent">.</span></h2></div></div>
       <div class="cert-grid">
-        <div class="cert-card"><span class="cert-label">AWS CERTIFIED</span><h3>Cloud Practitioner</h3><p>Cloud fundamentals, security, AWS services, and billing.</p></div>
-        <div class="cert-card"><span class="cert-label">AWS CERTIFIED</span><h3>AI Practitioner</h3><p>AI and machine learning fundamentals, generative AI, and responsible AI.</p></div>
+        <div class="cert-card">
+          <span class="cert-label">AWS CERTIFIED</span>
+          <h3>Cloud Practitioner</h3>
+          <p>Cloud fundamentals, security, AWS services, and billing.</p>
+          <!-- Replace this placeholder with your public Credly badge URL before publishing. -->
+          <a class="cert-link" href="https://www.credly.com/badges/a24a25c9-0be7-477d-846a-e8910127a152/public_url" target="_blank" rel="noopener noreferrer" aria-label="Verify AWS Certified Cloud Practitioner on Credly">Verify on Credly <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="cert-card">
+          <span class="cert-label">AWS CERTIFIED</span>
+          <h3>AI Practitioner</h3>
+          <p>AI and machine learning fundamentals, generative AI, and responsible AI.</p>
+          <!-- Replace this placeholder with your public Credly badge URL before publishing. -->
+          <a class="cert-link" href="https://www.credly.com/badges/bd65aae6-96fd-43d9-9d7b-2d3a704eb4ac/public_url" target="_blank" rel="noopener noreferrer" aria-label="Verify AWS Certified AI Practitioner on Credly">Verify on Credly <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
     </section>
 
