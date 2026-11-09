@@ -48,7 +48,7 @@
         </div>
         <div class="hero-stats" aria-label="Portfolio highlights">
           <div><strong>02</strong><span>AWS certifications</span></div>
-          <div><strong>02</strong><span>AWS portfolio projects</span></div>
+          <div><strong>03</strong><span>Cloud portfolio projects</span></div>
           <div><strong>Master's</strong><span>Cybersecurity · in progress</span></div>
         </div>
       </div>
@@ -97,7 +97,17 @@
           </div>
         </div>
       </article>
-      <p class="future-note">Next on my roadmap: CI/CD, containerized applications, and further cloud automation. Each project will be added as I build and validate it.</p>
+      <article class="project-card project-card-featured">
+        <div class="project-icon" aria-hidden="true">▣</div>
+        <div class="project-main">
+          <div class="project-meta"><span class="pill pill-built">● BUILT &amp; DOCUMENTED</span><span class="project-number">PROJECT 03</span></div>
+          <h3>Containerized Python API with Docker &amp; Amazon ECR</h3>
+          <p>Built and tested a FastAPI inventory REST API, packaged it in a non-root Docker image, and used Docker Compose to connect the API with Redis over an internal network. Practiced health checks, named-volume persistence, six automated tests, and publishing a versioned image to a private Amazon ECR repository. The application runs locally; AWS ECR stores the image.</p>
+          <div class="tags" aria-label="Technologies used"><span>Python / FastAPI</span><span>Docker</span><span>Docker Compose</span><span>Redis</span><span>Pytest</span><span>Amazon ECR</span></div>
+          <div class="project-links"><a href="https://github.com/josuegironestrada/aws-containerized-python-api" target="_blank" rel="noopener noreferrer">Explore code &amp; architecture <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+      <p class="future-note">Next on my roadmap: deploying the containerized application with ECS Fargate, Terraform, GitHub Actions, and CloudWatch. I'll document each milestone as I build it.</p>
     </section>
 
     <section class="section container" id="about" aria-labelledby="about-heading">
@@ -142,8 +152,8 @@
       </div>
       <div class="skill-grid">
         <div class="info-card"><div class="info-icon" aria-hidden="true">☁</div><h3>Cloud &amp; networking</h3><p>AWS S3, CloudFront, VPCs, subnets, routing, EC2, IAM, Security Groups, and cloud networking fundamentals.</p><span class="skill-status">Hands-on + certified fundamentals</span></div>
-        <div class="info-card"><div class="info-icon" aria-hidden="true">⌘</div><h3>Development workflow</h3><p>Terraform, Git, GitHub, HTML, CSS, Infrastructure as Code, and technical documentation.</p><span class="skill-status">Hands-on</span></div>
-        <div class="info-card"><div class="info-icon" aria-hidden="true">⚙</div><h3>Currently expanding</h3><p>Linux administration, Python, Docker, CI/CD pipelines, and Kubernetes.</p><span class="skill-status learning">Learning roadmap</span></div>
+        <div class="info-card"><div class="info-icon" aria-hidden="true">⌘</div><h3>Development workflow</h3><p>Terraform, Git, GitHub, Python, FastAPI, Docker, Docker Compose, Redis, Pytest, and technical documentation.</p><span class="skill-status">Hands-on</span></div>
+        <div class="info-card"><div class="info-icon" aria-hidden="true">⚙</div><h3>Currently expanding</h3><p>ECS Fargate, CI/CD pipelines, observability, cloud deployment automation, and Kubernetes fundamentals.</p><span class="skill-status learning">Learning roadmap</span></div>
       </div>
     </section>
 
